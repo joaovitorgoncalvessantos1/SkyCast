@@ -1,0 +1,61 @@
+.SunriseAndSunset {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  background: linear-gradient(145deg, #0f172a, #1e293b);
+  color: #fff;
+
+
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  border-radius: 16px;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+/* título */
+.SunriseAndSunset h {
+    padding: 10px;
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+/* horário */
+.SunriseAndSunset span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* ícone */
+.icon {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* glow bonito */
+  filter: drop-shadow(0 0 10px #facc15);
+}
+.icon {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-3px); }
+  100% { transform: translateY(0px); }
+}

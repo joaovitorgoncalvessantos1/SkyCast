@@ -1,0 +1,49 @@
+.Nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  background: linear-gradient(135deg, #000767, #1a1f9c, #3b4cff);  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  
+}
+.Nav input {
+  width: 60%;
+  max-width: 500px;
+  padding: 0.9rem 1rem;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  outline: none;
+  font-size: 1rem;
+  text-align: left;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* efeito quando o input está em foco */
+.Nav input:focus {
+  border-color: #7C87F3;
+  box-shadow: 0 0 8px rgba(124, 135, 243, 0.6);
+}
+
+.Nav button {
+  padding: 0.9rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #BDC2FF;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+/* efeito hover mais suave */
+.Nav button:hover {
+  background-color: #7C87F3;
+  transform: scale(1.05);
+}
+
+/* efeito de clique */
+.Nav button:active {
+  transform: scale(0.97);
+}
