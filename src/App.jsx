@@ -6,7 +6,6 @@ import AirQuality from "./assets/components/AirQuality/AirQuality";
 
 import DashboardGrid from "./assets/components/DashboardGrid/DashboardGrid";
 
-
 function App() {
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState(null);
@@ -42,14 +41,11 @@ function App() {
         onChange={cityChange}
       ></SearchInput>
 
-  <DashboardGrid>
-            <WeatherCard weather={weather}></WeatherCard>
+      <DashboardGrid>
+        <WeatherCard weather={weather}></WeatherCard>
         <SunriseAndSunset weather={weather}></SunriseAndSunset>
         <AirQuality weather={weather}></AirQuality>
-  </DashboardGrid>
-  
-
-
+      </DashboardGrid>
     </>
   );
 }
