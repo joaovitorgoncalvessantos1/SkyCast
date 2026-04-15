@@ -30,7 +30,7 @@ SkyCast é um aplicativo de previsão do tempo moderno, rápido e responsivo, qu
 
 ## 📸 Preview
 
-![SkyCast Preview](./public/preview.png)
+![SkyCast Preview](./assets/preview.png)
 
 ---
 
