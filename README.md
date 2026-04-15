@@ -1,16 +1,72 @@
-# React + Vite
+# 🌤️ SkyCast
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SkyCast é um aplicativo de previsão do tempo moderno, rápido e responsivo, que exibe clima em tempo real, qualidade do ar e informações meteorológicas de forma simples e intuitiva.
 
-Currently, two official plugins are available:
+🔗 Acesse o projeto: https://joaovitorgoncalvessantos1.github.io/SkyCast/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🌍 Busca de clima por cidade
+- 🌡️ Temperatura atual e sensação térmica
+- 🌫️ Qualidade do ar (AQI)
+- 💨 Velocidade do vento
+- 💧 Umidade do ar
+- 📱 Interface responsiva (mobile e desktop)
+- 🎨 UI moderna com gradientes e feedback visual
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- React
+- API de clima (WeatherAPI / OpenWeather)
+
+---
+
+## 📸 Preview
+
+![SkyCast Preview](./public/preview.png)
+
+---
+
+## ⚙️ Como rodar o projeto localmente
+
+git clone https://github.com/joaovitorgoncalvessantos1/SkyCast.git
+
+cd SkyCast
+
+npm install
+
+npm run dev
+
+---
+
+## 📌 Melhorias futuras
+
+- 🌙 Modo escuro/claro automático
+- 📍 Detecção de localização automática
+- 📊 Gráfico de previsão por horas
+- 🔔 Alertas de clima extremo
+- 🌎 Tradução para múltiplos idiomas
+
+---
+
+## 🧑‍💻 Autor
+
+João Vitor Gonçalves  
+São Paulo - SP  
+Front-end Developer
+
+GitHub: https://github.com/joaovitorgoncalvessantos1  
+LinkedIn: https://www.linkedin.com/in/jo%C3%A3o-vitor-gon%C3%A7alves-4a47491a4/
+
+---
+
+## ⭐ Observação
+
+Projeto focado em prática de consumo de API, UI moderna e manipulação de dados em tempo real.
